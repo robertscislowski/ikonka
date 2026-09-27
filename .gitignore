@@ -1,0 +1,11 @@
+# Wirtualne środowisko i pliki IDE
+venv/
+.idea/
+__pycache__/
+
+# Pliki danych i konfiguracja lokalna
+products_db.json
+products_db.json.tmp
+*.log
+.env
+tokens.json
