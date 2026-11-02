@@ -2,10 +2,19 @@
 venv/
 .idea/
 __pycache__/
+*.py[cod]
+.DS_Store
 
 # Pliki danych i konfiguracja lokalna
 products_db.json
 products_db.json.tmp
 *.log
 .env
+.env.*
+!.env.example
 tokens.json
+allegro_token.json
+allegro_offers.json
+allegro_offer_fees.csv
+temp_hurtownia.xml
+*.tmp
